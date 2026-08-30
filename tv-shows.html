@@ -1,32 +1,568 @@
-<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>TV Shows | Netflix Secret Codes</title><style>
-:root{--bg:#080808;--card:#151515;--line:#2b2b2b;--red:#e50914;--gold:#e6c46b;--muted:#a9a9a9}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;min-height:100vh;color:#fff;background:
-radial-gradient(850px 520px at 0 -10%,rgba(229,9,20,.22),transparent 58%),
-radial-gradient(700px 500px at 100% 0,rgba(255,255,255,.045),transparent 60%),var(--bg);
-font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif}
-header{position:sticky;top:0;z-index:20;background:rgba(8,8,8,.88);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
-.bar{max-width:1500px;margin:auto;padding:16px 28px;display:flex;align-items:center;justify-content:space-between;gap:16px}
-.logo{color:var(--red);font-weight:950;font-size:1.7rem;letter-spacing:-1.8px}.logo span{color:#fff;font-size:.72rem;letter-spacing:.12em;margin-left:8px}
-.hero{max-width:1500px;margin:auto;padding:64px 28px 34px}.eyebrow{color:var(--gold);text-transform:uppercase;letter-spacing:.18em;font-size:.72rem;font-weight:850}
-h1{font-size:clamp(2.8rem,6vw,6rem);line-height:.94;letter-spacing:-.065em;margin:14px 0}.hero p{max-width:760px;color:#b8b8b8;font-size:1.08rem;line-height:1.6}
-.wrap{max-width:1500px;margin:auto;padding:0 28px 70px}.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
-.category{min-height:190px;display:flex;flex-direction:column;justify-content:space-between;padding:22px;text-decoration:none;color:#fff;background:linear-gradient(145deg,#1a1a1a,#101010);border:1px solid #292929;border-radius:18px;position:relative;overflow:hidden;transition:.22s}
-.category:before{content:"";position:absolute;inset:0 0 auto;height:3px;background:linear-gradient(90deg,var(--red),#ff666d,transparent)}
-.category:hover{transform:translateY(-5px);border-color:#666;box-shadow:0 24px 60px rgba(0,0,0,.38)}
-.category .n{color:var(--gold);font:700 .72rem ui-monospace,monospace}.category h2{font-size:1.45rem;line-height:1.05;letter-spacing:-.035em;margin:18px 0 auto}.meta{color:#999;font-size:.82rem}.arrow{align-self:flex-end;color:#fff;font-size:1.5rem}
-.breadcrumb{max-width:1500px;margin:auto;padding:22px 28px 0;color:#999;font-size:.85rem}.breadcrumb a{color:#fff;text-decoration:none}.breadcrumb a:hover{color:var(--gold)}
-.catHero{max-width:1500px;margin:auto;padding:30px 28px 28px;display:flex;justify-content:space-between;gap:20px;align-items:end;border-bottom:1px solid var(--line)}
-.catHero h1{font-size:clamp(2.5rem,5vw,5rem);margin:8px 0}.count{color:#aaa}.subgrid{max-width:1500px;margin:auto;padding:30px 28px 70px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
-.sub{display:flex;align-items:center;gap:12px;min-height:82px;padding:15px 17px;text-decoration:none;color:#fff;background:#141414;border:1px solid #292929;border-radius:14px;transition:.18s}
-.sub:hover{transform:translateY(-3px);border-color:#666;background:#1a1a1a}.sub .name{flex:1;font-weight:700;line-height:1.25}.code{color:var(--gold);font:.72rem ui-monospace,monospace}.launch{font-size:.68rem;font-weight:850;color:#bbb;border:1px solid #3a3a3a;padding:5px 7px;border-radius:999px}
-.sub:hover .launch{background:var(--red);border-color:var(--red);color:#fff}
-.navbtns{display:flex;gap:9px;flex-wrap:wrap}.navbtn{display:inline-flex;align-items:center;gap:7px;border:1px solid #383838;border-radius:999px;padding:9px 13px;color:#fff;text-decoration:none;font-size:.82rem}.navbtn:hover{border-color:#777;background:#1b1b1b}.home{background:#fff;color:#111;border-color:#fff;font-weight:800}
-footer{border-top:1px solid var(--line);padding:26px;text-align:center;color:#777;font-size:.8rem}
-@media(max-width:1100px){.grid{grid-template-columns:repeat(3,1fr)}.subgrid{grid-template-columns:repeat(2,1fr)}}@media(max-width:700px){.bar,.hero,.wrap,.breadcrumb,.catHero,.subgrid{padding-left:15px;padding-right:15px}.grid{grid-template-columns:repeat(2,1fr);gap:10px}.category{min-height:160px;padding:16px}.category h2{font-size:1.08rem}.subgrid{grid-template-columns:1fr}.catHero{align-items:flex-start;flex-direction:column}.hero{padding-top:42px}.logo span{display:none}}
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>TV Shows | Netflix Secret Codes 2026</title><style>
+:root{--bg:#080808;--card:#141414;--line:#292929;--red:#e50914;--gold:#e6c46b;--muted:#aaa}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(900px 600px at 0 -10%,rgba(229,9,20,.22),transparent 58%),radial-gradient(700px 500px at 100% 0,rgba(255,255,255,.045),transparent 60%),var(--bg);color:#fff;font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif}
+header{position:sticky;top:0;z-index:20;background:rgba(8,8,8,.9);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}.bar{max-width:1500px;margin:auto;padding:16px 28px;display:flex;align-items:center;justify-content:space-between;gap:14px}.logo{color:var(--red);font-size:1.7rem;font-weight:950;letter-spacing:-1.8px}.logo span{color:#fff;font-size:.72rem;letter-spacing:.12em;margin-left:8px}
+.hero,.wrap,.catHero,.subwrap{max-width:1500px;margin:auto;padding-left:28px;padding-right:28px}.hero{padding-top:64px;padding-bottom:34px}.eyebrow{color:var(--gold);text-transform:uppercase;letter-spacing:.18em;font-size:.72rem;font-weight:850}h1{font-size:clamp(2.8rem,6vw,6rem);line-height:.94;letter-spacing:-.065em;margin:14px 0}.hero p{max-width:800px;color:#b8b8b8;font-size:1.08rem;line-height:1.6}
+.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;padding-bottom:70px}.category{min-height:190px;display:flex;flex-direction:column;justify-content:space-between;padding:22px;color:#fff;text-decoration:none;background:linear-gradient(145deg,#1a1a1a,#101010);border:1px solid #292929;border-radius:18px;position:relative;overflow:hidden;transition:.22s}.category:before{content:"";position:absolute;inset:0 0 auto;height:3px;background:linear-gradient(90deg,var(--red),#ff666d,transparent)}.category:hover{transform:translateY(-5px);border-color:#666;box-shadow:0 24px 60px rgba(0,0,0,.38)}.n{color:var(--gold);font:700 .72rem ui-monospace,monospace}.category h2{font-size:1.45rem;line-height:1.05;letter-spacing:-.035em;margin:18px 0 auto}.meta{color:#999;font-size:.82rem}.arrow{align-self:flex-end;font-size:1.5rem}
+.navbtn{display:inline-flex;align-items:center;gap:7px;border:1px solid #383838;border-radius:999px;padding:9px 13px;color:#fff;text-decoration:none;font-size:.82rem;background:#151515}.navbtn:hover{border-color:#777;background:#222}.home{background:#fff;color:#111;border-color:#fff;font-weight:800}.navs{display:flex;gap:8px;flex-wrap:wrap}
+.breadcrumb{max-width:1500px;margin:auto;padding:22px 28px 0;color:#999;font-size:.85rem}.breadcrumb a{color:#fff;text-decoration:none}.catHero{padding-top:25px;padding-bottom:28px;display:flex;justify-content:space-between;gap:20px;align-items:end;border-bottom:1px solid var(--line)}.catHero h1{font-size:clamp(2.5rem,5vw,5rem);margin:8px 0}.count{color:#aaa}
+.searchbar{margin-top:20px;max-width:700px}.searchbar input{width:100%;padding:13px 15px;border-radius:12px;border:1px solid #333;background:#121212;color:#fff;font:inherit}.subwrap{padding-top:26px;padding-bottom:70px}.subgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.sub{display:flex;align-items:center;gap:12px;min-height:82px;padding:15px 17px;color:#fff;background:#141414;border:1px solid #292929;border-radius:14px;text-decoration:none;transition:.18s}.sub:hover{transform:translateY(-3px);border-color:#666;background:#1a1a1a}.name{flex:1;font-weight:700;line-height:1.25}.code{color:var(--gold);font:.72rem ui-monospace,monospace}.launch{font-size:.68rem;font-weight:850;color:#bbb;border:1px solid #3a3a3a;padding:5px 7px;border-radius:999px}.sub:hover .launch{background:var(--red);border-color:var(--red);color:#fff}footer{border-top:1px solid var(--line);padding:26px;text-align:center;color:#777;font-size:.8rem}
+@media(max-width:1100px){.grid{grid-template-columns:repeat(3,1fr)}.subgrid{grid-template-columns:repeat(2,1fr)}}@media(max-width:700px){.bar,.hero,.wrap,.breadcrumb,.catHero,.subwrap{padding-left:15px;padding-right:15px}.grid{grid-template-columns:repeat(2,1fr);gap:10px}.category{min-height:160px;padding:16px}.category h2{font-size:1.08rem}.subgrid{grid-template-columns:1fr}.catHero{align-items:flex-start;flex-direction:column}.hero{padding-top:42px}.logo span{display:none}}
 </style></head><body>
-<header><div class="bar"><div class="logo">NETFLIX <span>SECRET CODES</span></div><div class="navbtns"><a class="navbtn home" href="index.html">⌂ Home</a><a class="navbtn" href="thrillers.html">← Thrillers</a></div></div></header>
-<div class="breadcrumb"><a href="index.html">Home</a> <span> / </span> <span>TV Shows</span></div>
-<section class="catHero"><div><div class="eyebrow">Category 20 / 20</div><h1>TV Shows</h1><div class="count">19 subcategories • Master code 83</div></div>
-<div class="navbtns"><a class="navbtn" href="javascript:history.back()">← Back</a><a class="navbtn home" href="index.html">⌂ Home</a><a class="navbtn" href="https://www.netflix.com/in/browse/genre/83">Open all ↗</a></div></section>
-<main class="subgrid"><a class="sub" href="https://www.netflix.com/in/browse/genre/52117"><span class="name">British TV Shows</span><span class="code">52117</span><span class="launch">WATCH ↗</span></a><a class="sub" href="https://www.netflix.com/in/browse/genre/46553"><span class="name">Classic TV Shows</span><span class="code">46553</span><span class="launch">WATCH ↗</span></a><a class="sub" href="https://www.netflix.com/in/browse/genre/26146"><span class="name">Crime TV Shows</span><span class="code">26146</span><span class="launch">WATCH ↗</span></a><a class="sub" href="https://www.netflix.com/in/browse/genre/74652"><span class="name">Cult TV Shows</span><span class="code">74652</span><span class="launch">WATCH ↗</span></a><a class="sub" href="https://www.netflix.com/in/browse/genre/72436"><span class="name">Food &amp; Travel TV</span><span class="code">72436</span><span class="launch">WATCH ↗</span></a><a class="sub" href="https://www.netflix.com/in/browse/genre/27346"><span class="name">Kids&#x27; TV</span><span class="code">27346</span><span class="launch">WATCH ↗</span></a><a class="sub" href="https://www.netflix.com/in/browse/genre/67879"><span class="name">Korean TV Shows</span><span class="code">67879</span><span class="launch">WATCH ↗</span></a><a class="sub" href="https://www.netflix.com/in/browse/genre/4814"><span class="name">Miniseries</span><span class="code">4814</span><span class="launch">WATCH ↗</span></a><a class="sub" href="https://www.netflix.com/in/browse/genre/25804"><span class="name">Military TV Shows</span><span class="code">25804</span><span class="launch">WATCH ↗</span></a><a class="sub" href="https://www.netflix.com/in/browse/genre/52780"><span class="name">Science &amp; Nature TV</span><span class="code">52780</span><span class="launch">WATCH ↗</span></a><a class="sub" href="https://www.netflix.com/in/browse/genre/10673"><span class="name">TV Action &amp; Adventure</span><span class="code">10673</span><span class="launch">WATCH ↗</span></a><a class="sub" href="https://www.netflix.com/in/browse/genre/10375"><span class="name">TV Comedies</span><span class="code">10375</span><span class="launch">WATCH ↗</span></a><a class="sub" href="https://www.netflix.com/in/browse/genre/10105"><span class="name">TV Documentaries</span><span class="code">10105</span><span class="launch">WATCH ↗</span></a><a class="sub" href="https://www.netflix.com/in/browse/genre/11714"><span class="name">TV Dramas</span><span class="code">11714</span><span class="launch">WATCH ↗</span></a><a class="sub" href="https://www.netflix.com/in/browse/genre/83059"><span class="name">TV Horror</span><span class="code">83059</span><span class="launch">WATCH ↗</span></a><a class="sub" href="https://www.netflix.com/in/browse/genre/4366"><span class="name">TV Mysteries</span><span class="code">4366</span><span class="launch">WATCH ↗</span></a><a class="sub" href="https://www.netflix.com/in/browse/genre/1372"><span class="name">TV Sci-Fi &amp; Fantasy</span><span class="code">1372</span><span class="launch">WATCH ↗</span></a><a class="sub" href="https://www.netflix.com/in/browse/genre/9833"><span class="name">Reality TV</span><span class="code">9833</span><span class="launch">WATCH ↗</span></a><a class="sub" href="https://www.netflix.com/in/browse/genre/60951"><span class="name">Teen TV Shows</span><span class="code">60951</span><span class="launch">WATCH ↗</span></a></main>
-<footer><a href="javascript:history.back()" style="color:#aaa;text-decoration:none">← Back</a> &nbsp; • &nbsp; <a href="index.html" style="color:#aaa;text-decoration:none">Home</a></footer></body></html>
+<header><div class="bar"><div class="logo">NETFLIX <span>SECRET CODES 2026</span></div><div class="navs"><a class="navbtn" href="javascript:history.back()">← Back</a><a class="navbtn home" href="index.html">⌂ Home</a></div></div></header>
+<div class="breadcrumb"><a href="index.html">Home</a> / TV Shows</div>
+<section class="catHero"><div><div class="eyebrow">Category 20 / 20</div><h1>TV Shows</h1><div class="count">551 updated collections from the 2026 master CSV</div><div class="searchbar"><input id="q" placeholder="Search within TV Shows..." oninput="filterCards()"></div></div><div class="navs"><a class="navbtn home" href="index.html">⌂ Home</a></div></section>
+<main class="subwrap"><div class="subgrid" id="cards"><a class="sub" href="https://www.netflix.com/in/browse/genre/81704918"><span class="name">10 Years of Netflix Series</span><span class="code">81704918</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81396426"><span class="name">2-Hour Movies</span><span class="code">81396426</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81254230"><span class="name">2016 Netflix Oscar Nominees</span><span class="code">81254230</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2233953"><span class="name">2017 Netflix Original Emmy Winners</span><span class="code">2233953</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2775958"><span class="name">2017 Netflix Originals Emmy Nominees</span><span class="code">2775958</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81254207"><span class="name">2017 Netflix Oscar Nominees</span><span class="code">81254207</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2870589"><span class="name">2018 Netflix Emmy Winners</span><span class="code">2870589</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2311413"><span class="name">2018 Netflix Golden Globe Nominees</span><span class="code">2311413</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81254137"><span class="name">2018 Netflix Oscar Nominees</span><span class="code">81254137</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3271845"><span class="name">2019 Netflix Emmy Nominees</span><span class="code">3271845</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3281705"><span class="name">2019 Netflix Emmy Winners</span><span class="code">3281705</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2693435"><span class="name">2019 Netflix Oscar Nominees</span><span class="code">2693435</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3050307"><span class="name">2019 Netflix Oscar Winners</span><span class="code">3050307</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81307148"><span class="name">2020 Netflix Emmy Winners</span><span class="code">81307148</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81238239"><span class="name">2020 Netflix Golden Globe Nominees</span><span class="code">81238239</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81240434"><span class="name">2020 Netflix Oscar Nominees</span><span class="code">81240434</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/51083"><span class="name">2020 Netflix Oscar Nominees</span><span class="code">51083</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81488807"><span class="name">2021 Netflix Daytime Emmy Nominees</span><span class="code">81488807</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81513374"><span class="name">2021 Netflix Emmy Winners</span><span class="code">81513374</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81424436"><span class="name">2021 Netflix Golden Globe Nominees</span><span class="code">81424436</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81428589"><span class="name">2021 Netflix Golden Globe Winners</span><span class="code">81428589</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81639853"><span class="name">2022 Netflix Emmy Winners</span><span class="code">81639853</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81672450"><span class="name">2022: Year in Review</span><span class="code">81672450</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81671543"><span class="name">2023 Netflix Golden Globe Nominees</span><span class="code">81671543</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81671059"><span class="name">2023 Netflix Oscars Contenders</span><span class="code">81671059</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/82054200"><span class="name">2025 Baeksang Arts Awards Nominees</span><span class="code">82054200</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/12739"><span class="name">20th-Century Period Pieces</span><span class="code">12739</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81602050"><span class="name">30-Minute Laughs</span><span class="code">81602050</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81466194"><span class="name">90-Minute Movies</span><span class="code">81466194</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81466228"><span class="name">90-Minute Rom-Coms</span><span class="code">81466228</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1461008"><span class="name">A Tale of Two Distant Ages</span><span class="code">1461008</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/108420"><span class="name">ABC</span><span class="code">108420</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/11881"><span class="name">Adult Animated Movies &amp; Shows</span><span class="code">11881</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81647534"><span class="name">All Laughs, No Laugh Track</span><span class="code">81647534</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81599617"><span class="name">All the Performers: Their Specials, Shows and More</span><span class="code">81599617</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/760"><span class="name">American Folk &amp; Bluegrass</span><span class="code">760</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81587950"><span class="name">And You Watched It Day and Night</span><span class="code">81587950</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/4698"><span class="name">Animated Movies and TV Shows</span><span class="code">4698</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81494969"><span class="name">Annie Award Winners &amp; Nominees</span><span class="code">81494969</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/100370"><span class="name">Argentinian Movies &amp; TV</span><span class="code">100370</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/29764"><span class="name">Art House Movies</span><span class="code">29764</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/801360"><span class="name">Auteur Movies</span><span class="code">801360</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1474467"><span class="name">Award-winning Auteur Cinema</span><span class="code">1474467</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2787344"><span class="name">Award-winning Directors</span><span class="code">2787344</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/89844"><span class="name">Award-Winning Movies</span><span class="code">89844</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81300907"><span class="name">Award-winning Offbeat TV Dramas</span><span class="code">81300907</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/89814"><span class="name">Award-Winning TV Shows</span><span class="code">89814</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/713151"><span class="name">Award-winning TV War &amp; Politics</span><span class="code">713151</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/499385"><span class="name">BAFTA Winners</span><span class="code">499385</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/108246"><span class="name">Based on a work by Agatha Christie</span><span class="code">108246</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1580"><span class="name">BBC Miniseries</span><span class="code">1580</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3308"><span class="name">BBC TV Shows</span><span class="code">3308</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81617009"><span class="name">Because She Created</span><span class="code">81617009</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/262"><span class="name">Belgian</span><span class="code">262</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1229"><span class="name">Belgian Crime Movies</span><span class="code">1229</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/100372"><span class="name">Belgian Movies &amp; TV</span><span class="code">100372</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3054"><span class="name">Bellydancing</span><span class="code">3054</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/107457"><span class="name">Bengali Movies &amp; TV</span><span class="code">107457</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/72428"><span class="name">Best Actress Oscar-winning Films</span><span class="code">72428</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/72361"><span class="name">Best Director Oscar-winning Films</span><span class="code">72361</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/108663"><span class="name">Best Halloween Movies</span><span class="code">108663</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2109769"><span class="name">Binge-worthy Fight-the-system TV Programmes</span><span class="code">2109769</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1191605"><span class="name">Binge-worthy TV Programmes</span><span class="code">1191605</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/12949"><span class="name">Biographical Crime Films</span><span class="code">12949</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1096"><span class="name">Biographical Movies</span><span class="code">1096</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3159"><span class="name">Biographical Tearjerkers</span><span class="code">3159</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2192319"><span class="name">Biographical TV Programmes</span><span class="code">2192319</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81244298"><span class="name">Black History Is American History</span><span class="code">81244298</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81416282"><span class="name">Black Sitcoms</span><span class="code">81416282</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81243939"><span class="name">Black Stories</span><span class="code">81243939</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81305957"><span class="name">Black Stories</span><span class="code">81305957</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81307031"><span class="name">Black Stories for Families</span><span class="code">81307031</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1832"><span class="name">Blaxploitation Movies</span><span class="code">1832</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/4582"><span class="name">BMX &amp; Extreme Biking</span><span class="code">4582</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/5480"><span class="name">Bollywood Movies</span><span class="code">5480</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81611350"><span class="name">Bollywood Movies Dubbed in English</span><span class="code">81611350</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81511805"><span class="name">Book Club</span><span class="code">81511805</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1242"><span class="name">Bravo Reality TV</span><span class="code">1242</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/4536"><span class="name">Bravo TV Shows</span><span class="code">4536</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/798"><span class="name">Brazilian Movies</span><span class="code">798</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/100373"><span class="name">Brazilian Movies &amp; TV</span><span class="code">100373</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1252"><span class="name">Camp</span><span class="code">1252</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1762"><span class="name">Campy Chinese Movies</span><span class="code">1762</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/4329"><span class="name">Campy Crime Satires</span><span class="code">4329</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/4196"><span class="name">Campy Mysteries</span><span class="code">4196</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/107519"><span class="name">Canadian Movies &amp; TV</span><span class="code">107519</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81610996"><span class="name">Cannes Film Festival</span><span class="code">81610996</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/49944"><span class="name">Car &amp; Motorsport Movies</span><span class="code">49944</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/753"><span class="name">Car Culture Shows</span><span class="code">753</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/711"><span class="name">Cardio &amp; Aerobics Workouts</span><span class="code">711</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2560"><span class="name">Career &amp; Finance</span><span class="code">2560</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2691054"><span class="name">Casual Viewing</span><span class="code">2691054</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/82135590"><span class="name">Celebrate Hispanic Heritage</span><span class="code">82135590</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81289595"><span class="name">Celebrate Pride Month</span><span class="code">81289595</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81522213"><span class="name">Celebrating Arab Cinema</span><span class="code">81522213</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81621298"><span class="name">Celebrating Disability with Dimension</span><span class="code">81621298</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81335113"><span class="name">Celebrating Hispanic Heritage</span><span class="code">81335113</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2869688"><span class="name">Celebrating Hispanic Heritage</span><span class="code">2869688</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/4518"><span class="name">Cerebral Biographical Movies</span><span class="code">4518</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2747"><span class="name">Cerebral Experimental Movies</span><span class="code">2747</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3156"><span class="name">Cerebral Military Movies</span><span class="code">3156</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1813"><span class="name">Cerebral Movies</span><span class="code">1813</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3152"><span class="name">Cerebral Political Movies</span><span class="code">3152</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/995"><span class="name">Cerebral Scandinavian Movies</span><span class="code">995</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1305303"><span class="name">Chilean Movies &amp; TV</span><span class="code">1305303</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3960"><span class="name">Chinese</span><span class="code">3960</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/100375"><span class="name">Chinese Movies &amp; TV</span><span class="code">100375</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81582655"><span class="name">Cinematography 101</span><span class="code">81582655</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/4032"><span class="name">Coming-of-age Movies</span><span class="code">4032</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/49266"><span class="name">Competition Reality TV</span><span class="code">49266</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/4493"><span class="name">Computer Animation</span><span class="code">4493</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/4981"><span class="name">Computers &amp; Electronics</span><span class="code">4981</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81517754"><span class="name">Controlling Chaos: Behind the Scenes of The Witcher</span><span class="code">81517754</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/593"><span class="name">Controversial Political Movies</span><span class="code">593</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2853"><span class="name">Cooking Instruction</span><span class="code">2853</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1111"><span class="name">Courtroom Mysteries</span><span class="code">1111</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/6895"><span class="name">Creature Features</span><span class="code">6895</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2694067"><span class="name">Crime Binge</span><span class="code">2694067</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3698"><span class="name">Crime Deadly Disasters</span><span class="code">3698</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/5824"><span class="name">Crime Movies</span><span class="code">5824</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/26146"><span class="name">Crime TV Shows</span><span class="code">26146</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2991687"><span class="name">Crime-Fighting Women</span><span class="code">2991687</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2236979"><span class="name">Critically Acclaimed Dark TV Programmes</span><span class="code">2236979</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3979"><span class="name">Critically Acclaimed Films</span><span class="code">3979</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81453982"><span class="name">Culture &amp; Food Across Asia &amp; Pacific Islands</span><span class="code">81453982</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/100376"><span class="name">Czech Films &amp; TV</span><span class="code">100376</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1697"><span class="name">Czech Movies</span><span class="code">1697</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1498"><span class="name">Dance Workouts</span><span class="code">1498</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3686"><span class="name">Dark Experimental Movies</span><span class="code">3686</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2784"><span class="name">Dark Military Movies</span><span class="code">2784</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2685"><span class="name">Dark Political Movies</span><span class="code">2685</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1974"><span class="name">Dark Scandinavian Movies</span><span class="code">1974</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3553"><span class="name">Dark Showbiz Movies</span><span class="code">3553</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1061"><span class="name">Dark Tearjerkers</span><span class="code">1061</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2012"><span class="name">Dark Westerns</span><span class="code">2012</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81496966"><span class="name">Daytime Emmy Winners &amp; Nominees</span><span class="code">81496966</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2076672"><span class="name">DC Comics</span><span class="code">2076672</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/108479"><span class="name">Deadpan</span><span class="code">108479</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3493"><span class="name">Disco</span><span class="code">3493</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1233"><span class="name">Discovery Channel TV Shows</span><span class="code">1233</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81290116"><span class="name">Diva Worship</span><span class="code">81290116</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3272152"><span class="name">Don&#x27;t Watch Hungry</span><span class="code">3272152</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2202980"><span class="name">Drug Lords, Mob Bosses, and Gangsters</span><span class="code">2202980</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/10606"><span class="name">Dutch Movies</span><span class="code">10606</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/100390"><span class="name">Dutch Movies &amp; TV</span><span class="code">100390</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/109298"><span class="name">Emmy Award Winners</span><span class="code">109298</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/804350"><span class="name">Emmy-winning Animation</span><span class="code">804350</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1189238"><span class="name">Emmy-winning Binge-worthy TV Programmes</span><span class="code">1189238</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/90975"><span class="name">Emmy-winning Films</span><span class="code">90975</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/90913"><span class="name">Emmy-winning TV Dramas</span><span class="code">90913</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/90911"><span class="name">Emmy-Winning TV Programmes</span><span class="code">90911</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/100039"><span class="name">Emotional</span><span class="code">100039</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1998"><span class="name">Emotional Biographical Movies</span><span class="code">1998</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/52982"><span class="name">Emotional Epics</span><span class="code">52982</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/4136"><span class="name">Emotional Movies</span><span class="code">4136</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3074"><span class="name">Emotional Showbiz Movies</span><span class="code">3074</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/25833"><span class="name">Emotional TV Programmes</span><span class="code">25833</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/19201"><span class="name">End-of-the-World Movies</span><span class="code">19201</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/107548"><span class="name">English Movies &amp; TV</span><span class="code">107548</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/70031"><span class="name">Ensemble Films</span><span class="code">70031</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/70659"><span class="name">Ensemble Sitcoms</span><span class="code">70659</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81232239"><span class="name">Epic Worlds</span><span class="code">81232239</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/52858"><span class="name">Epics</span><span class="code">52858</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81735842"><span class="name">Everyone&#x27;s Home for the Holidays</span><span class="code">81735842</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/100041"><span class="name">Exciting</span><span class="code">100041</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2680"><span class="name">Exciting Biographical Movies</span><span class="code">2680</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3028"><span class="name">Exciting Creature Features</span><span class="code">3028</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/5343"><span class="name">Exciting Movies</span><span class="code">5343</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/40240"><span class="name">Exciting Reality TV</span><span class="code">40240</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2796"><span class="name">Experimental Crime Movies</span><span class="code">2796</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/11079"><span class="name">Experimental Movies</span><span class="code">11079</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81388367"><span class="name">Explosive Movies</span><span class="code">81388367</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3052090"><span class="name">Familiar Favourites</span><span class="code">3052090</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81287693"><span class="name">Familiar TV Favorites</span><span class="code">81287693</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/100058"><span class="name">Feel-Good</span><span class="code">100058</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1968"><span class="name">Feel-good Coming-of-age Movies</span><span class="code">1968</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/10579"><span class="name">Feel-good Films</span><span class="code">10579</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1235"><span class="name">Feel-good Satires</span><span class="code">1235</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1074"><span class="name">Feel-good Showbiz Movies</span><span class="code">1074</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2088"><span class="name">Feel-good Westerns</span><span class="code">2088</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81190111"><span class="name">Festival Focus: Cannes, Venice &amp; Berlin</span><span class="code">81190111</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81190112"><span class="name">Festival Focus: Sundance, SXSW &amp; TIFF</span><span class="code">81190112</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/100391"><span class="name">Filipino Movies &amp; TV</span><span class="code">100391</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81225828"><span class="name">Films Written By Women</span><span class="code">81225828</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81664146"><span class="name">Fitness</span><span class="code">81664146</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/72436"><span class="name">Food &amp; Travel TV</span><span class="code">72436</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3890"><span class="name">Food &amp; Wine</span><span class="code">3890</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81272748"><span class="name">Food for Hungry Brains</span><span class="code">81272748</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/39135"><span class="name">Food Shows</span><span class="code">39135</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/652"><span class="name">Frankenstein Movies</span><span class="code">652</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81582560"><span class="name">From Women, For The World</span><span class="code">81582560</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1143288"><span class="name">Gal Pal TV Programmes</span><span class="code">1143288</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1307137"><span class="name">Gal Pals</span><span class="code">1307137</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1144186"><span class="name">Gal Pals Films &amp; TV Programmes</span><span class="code">1144186</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/31851"><span class="name">Gangster Movies</span><span class="code">31851</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/64342"><span class="name">Gangster TV Programmes</span><span class="code">64342</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81610621"><span class="name">Geeked Week</span><span class="code">81610621</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81240711"><span class="name">Gentle British Reality TV</span><span class="code">81240711</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2693134"><span class="name">Get Into the Olympic &amp; Paralympic Spirit</span><span class="code">2693134</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2868223"><span class="name">GLAAD Award Nominees</span><span class="code">2868223</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81397797"><span class="name">Global Perspectives</span><span class="code">81397797</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/82503"><span class="name">Golden Globe Award-winning Dramas</span><span class="code">82503</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/82489"><span class="name">Golden Globe Award-winning Films</span><span class="code">82489</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/82862"><span class="name">Golden Globe Award-winning Musicals</span><span class="code">82862</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/83116"><span class="name">Golden Globe Award-winning Sitcoms</span><span class="code">83116</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/83050"><span class="name">Golden Globe Award-winning TV Programmes</span><span class="code">83050</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81496963"><span class="name">Golden Globe Nominees</span><span class="code">81496963</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81396373"><span class="name">Golden Globe Nominees</span><span class="code">81396373</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/108861"><span class="name">Golden Globe Winners</span><span class="code">108861</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3116"><span class="name">Golf</span><span class="code">3116</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/93"><span class="name">Goofy Adventures</span><span class="code">93</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/4210"><span class="name">Goofy Chinese Movies</span><span class="code">4210</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2021"><span class="name">Goofy Coming-of-age Movies</span><span class="code">2021</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/285"><span class="name">Goofy Courtroom Movies</span><span class="code">285</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3289"><span class="name">Goofy Creature Features</span><span class="code">3289</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/300"><span class="name">Goofy Detective Movies</span><span class="code">300</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2351"><span class="name">Goofy Movies</span><span class="code">2351</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3616"><span class="name">Goofy Political Movies</span><span class="code">3616</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3369"><span class="name">Gory Adventures</span><span class="code">3369</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/161"><span class="name">Gory Crime Movies</span><span class="code">161</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/615"><span class="name">Gory Movies</span><span class="code">615</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1657"><span class="name">Gory Satanic Stories</span><span class="code">1657</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1663"><span class="name">Gory Satires</span><span class="code">1663</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2787"><span class="name">Gory Werewolf Movies</span><span class="code">2787</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2719"><span class="name">Goth &amp; Industrial</span><span class="code">2719</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/61115"><span class="name">Greek Movies</span><span class="code">61115</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/4732"><span class="name">Gritty Adventures</span><span class="code">4732</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3103"><span class="name">Gritty Blaxploitation Movies</span><span class="code">3103</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/4624"><span class="name">Gritty Brazilian Movies</span><span class="code">4624</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2835"><span class="name">Gritty Courtroom Movies</span><span class="code">2835</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2857"><span class="name">Gritty Detective Movies</span><span class="code">2857</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3247"><span class="name">Gritty Latino Crime Movies</span><span class="code">3247</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1170"><span class="name">Gritty Mexican Movies</span><span class="code">1170</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3223"><span class="name">Gritty Movies</span><span class="code">3223</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/247"><span class="name">Gritty Mysteries</span><span class="code">247</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1982"><span class="name">Gritty Showbiz Movies</span><span class="code">1982</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/276"><span class="name">Gritty Tearjerkers</span><span class="code">276</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/265"><span class="name">Gritty Westerns</span><span class="code">265</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81612176"><span class="name">Halloween Collection</span><span class="code">81612176</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81336575"><span class="name">Halloween Favorites</span><span class="code">81336575</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81180221"><span class="name">Harlan Coben Collection</span><span class="code">81180221</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/100407"><span class="name">HBO</span><span class="code">100407</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2927"><span class="name">Healthy Living Shows</span><span class="code">2927</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/100045"><span class="name">Heartfelt</span><span class="code">100045</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1812"><span class="name">Heartfelt Tearjerkers</span><span class="code">1812</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/753215"><span class="name">Hidden Gems</span><span class="code">753215</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81486267"><span class="name">Higher Ground Productions</span><span class="code">81486267</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/107461"><span class="name">Hindi Movies &amp; TV</span><span class="code">107461</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/83181"><span class="name">Historical TV Programmes</span><span class="code">83181</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/14981"><span class="name">Hit-man Films</span><span class="code">14981</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/4056"><span class="name">Hobbies &amp; Games</span><span class="code">4056</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/107093"><span class="name">Holiday Movies</span><span class="code">107093</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/90139"><span class="name">Hollywood Blockbuster Movies</span><span class="code">90139</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2298875"><span class="name">Hollywood Films</span><span class="code">2298875</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/4200"><span class="name">Home Entertaining</span><span class="code">4200</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3293"><span class="name">Home Improvement</span><span class="code">3293</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2380"><span class="name">Homework Help</span><span class="code">2380</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/107576"><span class="name">Hong Kong Movies &amp; TV</span><span class="code">107576</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81271205"><span class="name">Human Connections</span><span class="code">81271205</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/4511"><span class="name">Ice Hockey</span><span class="code">4511</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/100046"><span class="name">Imaginative</span><span class="code">100046</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/4358"><span class="name">Imaginative Crime Movies</span><span class="code">4358</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2979"><span class="name">Imaginative Movies</span><span class="code">2979</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/40519"><span class="name">Imaginative TV Cartoons</span><span class="code">40519</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/26089"><span class="name">Imaginative TV Programmes</span><span class="code">26089</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/100047"><span class="name">Inspiring</span><span class="code">100047</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1081"><span class="name">Inspiring Courtroom Movies</span><span class="code">1081</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/4583"><span class="name">Inspiring Military Movies</span><span class="code">4583</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/10619"><span class="name">Inspiring Movies</span><span class="code">10619</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/4362"><span class="name">Inspiring Political Movies</span><span class="code">4362</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2869704"><span class="name">Interactive Specials</span><span class="code">2869704</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81657886"><span class="name">International Emmy Nominees</span><span class="code">81657886</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81657887"><span class="name">International Emmy Winners</span><span class="code">81657887</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3066432"><span class="name">Intimate</span><span class="code">3066432</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3053904"><span class="name">Investigative</span><span class="code">3053904</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/58750"><span class="name">Irish Movies</span><span class="code">58750</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/107566"><span class="name">Irish Movies &amp; TV</span><span class="code">107566</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/100048"><span class="name">Irreverent</span><span class="code">100048</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/4506"><span class="name">Irreverent Military Movies</span><span class="code">4506</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2701"><span class="name">Irreverent Mysteries</span><span class="code">2701</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1814"><span class="name">Irreverent Political Movies</span><span class="code">1814</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/4718"><span class="name">Israeli Movies</span><span class="code">4718</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/4711"><span class="name">Israeli Political Movies</span><span class="code">4711</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1558"><span class="name">Karaoke</span><span class="code">1558</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81472078"><span class="name">Kenyan Movies &amp; TV</span><span class="code">81472078</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/108524"><span class="name">Kick-ass Ladies</span><span class="code">108524</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1366"><span class="name">Latin &amp; Ballroom Dance</span><span class="code">1366</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/129"><span class="name">Latino Movies</span><span class="code">129</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81418611"><span class="name">Lavish Reality Lifestyles</span><span class="code">81418611</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81397795"><span class="name">Learn Something New</span><span class="code">81397795</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/666414"><span class="name">LEGO Films &amp; Programmes</span><span class="code">666414</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81288351"><span class="name">LGBTQ Directors</span><span class="code">81288351</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/100010"><span class="name">LGBTQ Stories</span><span class="code">100010</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81290117"><span class="name">LGBTQ Stories for Families</span><span class="code">81290117</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/30112"><span class="name">LGBTQ+ Art House Movies</span><span class="code">30112</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2992583"><span class="name">Limited Series</span><span class="code">2992583</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/108523"><span class="name">Lovable Losers</span><span class="code">108523</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2708690"><span class="name">Love Hurts</span><span class="code">2708690</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81570880"><span class="name">Love in Prose</span><span class="code">81570880</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/51"><span class="name">Low-Impact Workouts</span><span class="code">51</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81640004"><span class="name">Luis Estrada</span><span class="code">81640004</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81284582"><span class="name">Made in Africa</span><span class="code">81284582</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/100381"><span class="name">Made In India</span><span class="code">100381</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81512119"><span class="name">Made in South Africa</span><span class="code">81512119</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1433"><span class="name">Magic &amp; Illusion</span><span class="code">1433</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/45026"><span class="name">Magical Movies</span><span class="code">45026</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1705299"><span class="name">Malaysian Movies &amp; TV</span><span class="code">1705299</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/107556"><span class="name">Mandarin Movies &amp; TV Shows</span><span class="code">107556</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/82705933"><span class="name">MAPPA</span><span class="code">82705933</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2139208"><span class="name">Marathi Movies &amp; TV Shows</span><span class="code">2139208</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1611208"><span class="name">Marvel Comics</span><span class="code">1611208</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/34028"><span class="name">Medical TV Programmes</span><span class="code">34028</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3323"><span class="name">Mexican Crime Movies</span><span class="code">3323</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/100388"><span class="name">Mexican Movies &amp; TV</span><span class="code">100388</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3590"><span class="name">Mexican Political Movies</span><span class="code">3590</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/25804"><span class="name">Military TV Shows</span><span class="code">25804</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/245"><span class="name">Military Westerns</span><span class="code">245</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3588"><span class="name">Mind and Body</span><span class="code">3588</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/100049"><span class="name">Mind-bending</span><span class="code">100049</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3777"><span class="name">Mind-bending Animation</span><span class="code">3777</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/4497"><span class="name">Mind-bending Biographical Movies</span><span class="code">4497</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2232"><span class="name">Mind-bending Crime Movies</span><span class="code">2232</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2725"><span class="name">Mind-bending Experimental Movies</span><span class="code">2725</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1089"><span class="name">Mind-bending Movies</span><span class="code">1089</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1424"><span class="name">Mind-bending Political Movies</span><span class="code">1424</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/4814"><span class="name">Miniseries</span><span class="code">4814</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/26"><span class="name">Mockumentaries</span><span class="code">26</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2990488"><span class="name">Mood Boosters</span><span class="code">2990488</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81472392"><span class="name">Most Favorites</span><span class="code">81472392</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2647"><span class="name">Motorsports</span><span class="code">2647</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/34399"><span class="name">Movies</span><span class="code">34399</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2495600"><span class="name">Movies</span><span class="code">2495600</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/339"><span class="name">Movies on IMAX</span><span class="code">339</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81396430"><span class="name">Movies over 2 Hours</span><span class="code">81396430</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81396425"><span class="name">Movies under 90 Minutes</span><span class="code">81396425</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81263813"><span class="name">Movies with Memorable Soundtracks</span><span class="code">81263813</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/4221"><span class="name">MTV TV Shows</span><span class="code">4221</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/9994"><span class="name">Mysteries</span><span class="code">9994</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/107964"><span class="name">NBC</span><span class="code">107964</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81215783"><span class="name">Netflix &amp; Groove</span><span class="code">81215783</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81614964"><span class="name">Netflix 2022 Emmy Collection</span><span class="code">81614964</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81586723"><span class="name">Netflix 2022 Oscars Collection</span><span class="code">81586723</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81712165"><span class="name">Netflix 2023 Emmy Collection</span><span class="code">81712165</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81670759"><span class="name">Netflix 2023 Oscars Collection</span><span class="code">81670759</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81595743"><span class="name">Netflix 27th Annual Critics Choice Winners</span><span class="code">81595743</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81671725"><span class="name">Netflix 29th Annual SAG Awards Collection</span><span class="code">81671725</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81674789"><span class="name">Netflix at the Oscars</span><span class="code">81674789</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2867892"><span class="name">Netflix Is A Joke</span><span class="code">2867892</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81605582"><span class="name">Netflix is a Joke: The Festival</span><span class="code">81605582</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81307145"><span class="name">Netflix Originals 2020 Emmy Nominees</span><span class="code">81307145</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/63782"><span class="name">New Zealand Movies</span><span class="code">63782</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/107575"><span class="name">New Zealand Movies &amp; TV</span><span class="code">107575</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1077508"><span class="name">Nollywood Movies &amp; TV</span><span class="code">1077508</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2691941"><span class="name">Nostalgic &#x27;90s</span><span class="code">2691941</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1625327"><span class="name">Offbeat TV Programmes</span><span class="code">1625327</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81674763"><span class="name">Once Upon a Story</span><span class="code">81674763</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81588405"><span class="name">One World, Infinite Wonder</span><span class="code">81588405</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/839338"><span class="name">Only on Netflix</span><span class="code">839338</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/365"><span class="name">Opera &amp; Operetta</span><span class="code">365</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2991699"><span class="name">Oscar Winners &amp; Recent Nominees</span><span class="code">2991699</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81396365"><span class="name">Oscar-Nominated Movies</span><span class="code">81396365</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1474459"><span class="name">Oscar-winning Auteur Cinema</span><span class="code">1474459</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/51063"><span class="name">Oscar-winning Films</span><span class="code">51063</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/781638"><span class="name">Oscar-winning Historical Films</span><span class="code">781638</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/82679055"><span class="name">Oscars Spotlight</span><span class="code">82679055</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81553503"><span class="name">Other Epic Worlds</span><span class="code">81553503</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2204176"><span class="name">Pakistani Movies &amp; TV</span><span class="code">2204176</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81515124"><span class="name">Palestinian Stories</span><span class="code">81515124</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/82696818"><span class="name">Podcasts</span><span class="code">82696818</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/107559"><span class="name">Polish-Language Movies &amp; TV</span><span class="code">107559</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/82066366"><span class="name">Political Films</span><span class="code">82066366</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2286"><span class="name">Political Movies</span><span class="code">2286</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1291"><span class="name">Political Tearjerkers</span><span class="code">1291</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/25807"><span class="name">Political TV Programmes</span><span class="code">25807</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81607968"><span class="name">Pot Luck</span><span class="code">81607968</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/107466"><span class="name">Punjabi Movies &amp; TV Shows</span><span class="code">107466</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81484151"><span class="name">Queue&#x27;s Queue: Father Figures</span><span class="code">81484151</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81573422"><span class="name">Queue&#x27;s Queue: New Year&#x27;s Edition</span><span class="code">81573422</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81667989"><span class="name">Queue&#x27;s Queue: New Year&#x27;s Edition 2022</span><span class="code">81667989</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81481914"><span class="name">Queue&#x27;s Queue: Summer Hits</span><span class="code">81481914</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/100050"><span class="name">Quirky</span><span class="code">100050</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/87"><span class="name">Quirky Adventures</span><span class="code">87</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/4305"><span class="name">Quirky Courtroom Movies</span><span class="code">4305</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1625"><span class="name">Quirky Crime Satires</span><span class="code">1625</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/4326"><span class="name">Quirky Detective Movies</span><span class="code">4326</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/4444"><span class="name">Quirky Movies</span><span class="code">4444</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3658"><span class="name">Quirky Mysteries</span><span class="code">3658</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2624"><span class="name">Quirky Political Satires</span><span class="code">2624</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/313"><span class="name">Quirky Satires</span><span class="code">313</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3518"><span class="name">Quirky Showbiz Movies</span><span class="code">3518</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/100051"><span class="name">Raunchy</span><span class="code">100051</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3986"><span class="name">Raunchy Crime Movies</span><span class="code">3986</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2185"><span class="name">Raunchy Political Movies</span><span class="code">2185</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/295"><span class="name">Raunchy Satires</span><span class="code">295</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/9833"><span class="name">Reality TV</span><span class="code">9833</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2788236"><span class="name">Recent Festival Favorites</span><span class="code">2788236</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3081"><span class="name">Reggae</span><span class="code">3081</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3656"><span class="name">Reggaeton</span><span class="code">3656</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3053870"><span class="name">Reluctant Adults</span><span class="code">3053870</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2008977"><span class="name">Retro TV</span><span class="code">2008977</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/26044"><span class="name">Revenge TV Programmes</span><span class="code">26044</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2787029"><span class="name">Rugged Reality TV</span><span class="code">2787029</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/11567"><span class="name">Russian</span><span class="code">11567</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/241"><span class="name">Russian Crime Movies</span><span class="code">241</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1024"><span class="name">Russian Military Movies</span><span class="code">1024</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/100393"><span class="name">Russian Movies &amp; TV</span><span class="code">100393</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3230"><span class="name">Russian Political Movies</span><span class="code">3230</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81173845"><span class="name">Ryan Murphy Collection</span><span class="code">81173845</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81671734"><span class="name">SAG Award Winners &amp; Nominees</span><span class="code">81671734</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/6998"><span class="name">Satanic Stories</span><span class="code">6998</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/4922"><span class="name">Satires</span><span class="code">4922</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3980"><span class="name">Saturday Night Live</span><span class="code">3980</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/76802"><span class="name">Scandanavian TV</span><span class="code">76802</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1884"><span class="name">Scandinavian Crime Movies</span><span class="code">1884</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/9292"><span class="name">Scandinavian Movies</span><span class="code">9292</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/100394"><span class="name">Scandinavian Movies &amp; TV</span><span class="code">100394</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1352"><span class="name">Scary Crime Movies</span><span class="code">1352</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2172"><span class="name">Scary Experimental Movies</span><span class="code">2172</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/511"><span class="name">Scary Satires</span><span class="code">511</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2080"><span class="name">Scary Westerns</span><span class="code">2080</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81493295"><span class="name">Schemers &amp; Scammers</span><span class="code">81493295</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/4975"><span class="name">Science</span><span class="code">4975</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2595"><span class="name">Science &amp; Nature Docs</span><span class="code">2595</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/52780"><span class="name">Science &amp; Nature TV</span><span class="code">52780</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81725627"><span class="name">Screen Time, Quality Time</span><span class="code">81725627</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/100054"><span class="name">Sentimental</span><span class="code">100054</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3937"><span class="name">Sentimental Adventures</span><span class="code">3937</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/4619"><span class="name">Sentimental Biographical Movies</span><span class="code">4619</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/4309"><span class="name">Sentimental Coming-of-age Movies</span><span class="code">4309</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81349039"><span class="name">Shondaland Collection</span><span class="code">81349039</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81603903"><span class="name">Short-Ass Movies</span><span class="code">81603903</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/4489"><span class="name">Showbiz Mockumentaries</span><span class="code">4489</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/53310"><span class="name">Silent Movies</span><span class="code">53310</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81507118"><span class="name">Sing Me A Story</span><span class="code">81507118</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1715778"><span class="name">Singaporean Movies &amp; TV</span><span class="code">1715778</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3903"><span class="name">Sitcoms</span><span class="code">3903</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81614959"><span class="name">Six Degrees of Kevin Bacon</span><span class="code">81614959</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1906"><span class="name">Skateboarding Non-fiction</span><span class="code">1906</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/4437"><span class="name">Skiing Non-fiction</span><span class="code">4437</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81615585"><span class="name">Small Town Charm</span><span class="code">81615585</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81496215"><span class="name">Small Town Scares</span><span class="code">81496215</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81623796"><span class="name">Spatial Audio</span><span class="code">81623796</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81700935"><span class="name">Star Power</span><span class="code">81700935</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81397794"><span class="name">Stay Current</span><span class="code">81397794</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2158"><span class="name">Steamy Biographical Movies</span><span class="code">2158</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3239"><span class="name">Steamy Coming-of-age Movies</span><span class="code">3239</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/993"><span class="name">Steamy Crime Movies</span><span class="code">993</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/11781"><span class="name">Steamy Movies</span><span class="code">11781</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2023"><span class="name">Steamy Mysteries</span><span class="code">2023</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3535"><span class="name">Steamy Political Movies</span><span class="code">3535</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/4825"><span class="name">Steamy Satires</span><span class="code">4825</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/817"><span class="name">Steamy Showbiz Movies</span><span class="code">817</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81702620"><span class="name">Streamberry&#x27;s Top Picks For You</span><span class="code">81702620</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3050"><span class="name">Stunts &amp; General Mayhem</span><span class="code">3050</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81683021"><span class="name">Summer - Now Showing</span><span class="code">81683021</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81473437"><span class="name">Summer Break</span><span class="code">81473437</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81453863"><span class="name">Summer Movies</span><span class="code">81453863</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/108850"><span class="name">Sundance Film Festival Award Winners</span><span class="code">108850</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81548"><span class="name">Sundance Film Festival Award-winning Movies</span><span class="code">81548</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81639720"><span class="name">Sustainability Stories</span><span class="code">81639720</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1191"><span class="name">Swashbucklers</span><span class="code">1191</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/107572"><span class="name">Swedish Movies &amp; TV</span><span class="code">107572</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3208"><span class="name">Swing &amp; Big Band</span><span class="code">3208</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81582488"><span class="name">Swipe Right</span><span class="code">81582488</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/457319"><span class="name">Swiss Films &amp; TV</span><span class="code">457319</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81398015"><span class="name">Swoonworthy TV Shows</span><span class="code">81398015</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2935488"><span class="name">Tagalog Movies</span><span class="code">2935488</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/4357"><span class="name">Tai Chi &amp; Qigong</span><span class="code">4357</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81517753"><span class="name">Tales of The Witcher</span><span class="code">81517753</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/6384"><span class="name">Tearjerkers</span><span class="code">6384</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1098"><span class="name">Thai Movies</span><span class="code">1098</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/107570"><span class="name">Thai Movies &amp; TV</span><span class="code">107570</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81630676"><span class="name">The Art of Espionage</span><span class="code">81630676</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81648636"><span class="name">The Beautiful Game</span><span class="code">81648636</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1187715"><span class="name">The Lighter Side of Parenthood</span><span class="code">1187715</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81435539"><span class="name">The Netflix 2021 Oscars® Collection</span><span class="code">81435539</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81571113"><span class="name">The Netflix 27th Annual Critics Choice Collection</span><span class="code">81571113</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81582562"><span class="name">The Power of She</span><span class="code">81582562</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81517755"><span class="name">The World of the Witcher</span><span class="code">81517755</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2557"><span class="name">Theatrical Performances</span><span class="code">2557</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81476889"><span class="name">This Place is Evil</span><span class="code">81476889</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81671509"><span class="name">Time for the Best of 2022</span><span class="code">81671509</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/4865"><span class="name">TLC Reality TV</span><span class="code">4865</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2375"><span class="name">TLC TV Shows</span><span class="code">2375</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2314106"><span class="name">Totally Awesome &#x27;80s</span><span class="code">2314106</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81634117"><span class="name">Tudum: The Experience</span><span class="code">81634117</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/871341"><span class="name">Turkey&#x27;s Best Movies &amp; TV</span><span class="code">871341</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81397796"><span class="name">Turn Back the Clock</span><span class="code">81397796</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/11177"><span class="name">TV Cartoons</span><span class="code">11177</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/11714"><span class="name">TV Drama Series</span><span class="code">11714</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/4366"><span class="name">TV Mysteries</span><span class="code">4366</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/83"><span class="name">TV Shows</span><span class="code">83</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2496491"><span class="name">TV Shows</span><span class="code">2496491</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/456423"><span class="name">Ukranian Films &amp; TV</span><span class="code">456423</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/100057"><span class="name">Understated</span><span class="code">100057</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/230"><span class="name">Understated Biographical Movies</span><span class="code">230</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/5066"><span class="name">Understated Movies</span><span class="code">5066</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2717"><span class="name">Understated Mysteries</span><span class="code">2717</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/120"><span class="name">Understated Political Movies</span><span class="code">120</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/723"><span class="name">Understated Westerns</span><span class="code">723</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/72417"><span class="name">US Reality TV</span><span class="code">72417</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/72413"><span class="name">US Sitcoms</span><span class="code">72413</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1952249"><span class="name">Valentine&#x27;s Day Favorites</span><span class="code">1952249</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1001714"><span class="name">Vintage Crime</span><span class="code">1001714</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/4163"><span class="name">Violent Crime Movies</span><span class="code">4163</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2203"><span class="name">Violent Movies</span><span class="code">2203</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3406"><span class="name">Violent Satires</span><span class="code">3406</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2651"><span class="name">Violent Westerns</span><span class="code">2651</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3618"><span class="name">Visually-striking Cerebral Movies</span><span class="code">3618</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/4783"><span class="name">Visually-striking Crime Movies</span><span class="code">4783</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1416"><span class="name">Visually-striking Dark Movies</span><span class="code">1416</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/4340"><span class="name">Visually-striking Dark Political Movies</span><span class="code">4340</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/614"><span class="name">Visually-striking Feel-good Movies</span><span class="code">614</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3428"><span class="name">Visually-striking Gory Crime Movies</span><span class="code">3428</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/4463"><span class="name">Visually-striking Gory Movies</span><span class="code">4463</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/4526"><span class="name">Visually-striking Imaginative Movies</span><span class="code">4526</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/280"><span class="name">Visually-striking Irreverent Movies</span><span class="code">280</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3225"><span class="name">Visually-striking Movies</span><span class="code">3225</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2957"><span class="name">Visually-striking Scary Crime Movies</span><span class="code">2957</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/907"><span class="name">Visually-striking Sentimental Movies</span><span class="code">907</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1837"><span class="name">Visually-striking Steamy Movies</span><span class="code">1837</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3971"><span class="name">Visually-striking Violent Movies</span><span class="code">3971</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1954"><span class="name">Visually-striking Witty Movies</span><span class="code">1954</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81638461"><span class="name">Watch for a While</span><span class="code">81638461</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3178549"><span class="name">Watch In One Night</span><span class="code">3178549</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3182735"><span class="name">Watch In One Weekend</span><span class="code">3182735</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81489950"><span class="name">Watch the World&#x27;s Stories</span><span class="code">81489950</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81614575"><span class="name">Welcome to the Sandlerverse</span><span class="code">81614575</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81576602"><span class="name">What to Watch this Valentine&#x27;s Day</span><span class="code">81576602</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1458"><span class="name">Wine &amp; Beverage Appreciation</span><span class="code">1458</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81552046"><span class="name">Witchcraft &amp; the Dark Arts</span><span class="code">81552046</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/100060"><span class="name">Witty</span><span class="code">100060</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3059"><span class="name">Witty Coming-of-age Movies</span><span class="code">3059</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/839"><span class="name">Witty Crime Movies</span><span class="code">839</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/3144"><span class="name">Witty Crime Satires</span><span class="code">3144</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2346"><span class="name">Witty Detective Movies</span><span class="code">2346</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1216"><span class="name">Witty Mockumentaries</span><span class="code">1216</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/2943"><span class="name">Witty Movies</span><span class="code">2943</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/741"><span class="name">Witty Satires</span><span class="code">741</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/25868"><span class="name">Witty Sitcoms</span><span class="code">25868</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/82735870"><span class="name">Women in Focus</span><span class="code">82735870</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1857465"><span class="name">Women Making History</span><span class="code">1857465</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1964216"><span class="name">Women Who Rules the Screen</span><span class="code">1964216</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1263"><span class="name">World Fusion</span><span class="code">1263</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81921063"><span class="name">WWE Collection</span><span class="code">81921063</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81989496"><span class="name">WWE RAW</span><span class="code">81989496</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/70023"><span class="name">WWII Movies</span><span class="code">70023</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/81622928"><span class="name">Young &amp; Powerful</span><span class="code">81622928</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1684370"><span class="name">Young Adult Films &amp; Programmes</span><span class="code">1684370</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/1502288"><span class="name">Youth Movies</span><span class="code">1502288</span><span class="launch">WATCH ↗</span></a>
+<a class="sub" href="https://www.netflix.com/in/browse/genre/82794530"><span class="name">“Shaaark!”</span><span class="code">82794530</span><span class="launch">WATCH ↗</span></a></div></main>
+<footer><div class="navs" style="justify-content:center"><a class="navbtn" href="thrillers.html">← Previous</a><a class="navbtn home" href="index.html">⌂ Home</a></div></footer>
+<script>function filterCards(){const q=document.getElementById('q').value.toLowerCase();document.querySelectorAll('.sub').forEach(x=>x.style.display=x.innerText.toLowerCase().includes(q)?'flex':'none')}</script>
+</body></html>
