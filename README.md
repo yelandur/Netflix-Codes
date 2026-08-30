@@ -1,10 +1,12 @@
-# Netflix Secret Codes — Multi-Page GitHub Pages Site
+# Netflix Secret Codes — India-Compatible GitHub Pages Package
 
-This package contains:
-
-- index.html — Home page with the 20-category grid
-- 20 category HTML pages
+This package contains 21 HTML files:
+- index.html — 20 categories in a 4 × 5 grid
+- 20 category pages
 - .nojekyll
-- README.md
 
-Deploy all files together to the root of your GitHub repository.
+All Netflix category links use:
+https://www.netflix.com/in/browse/genre/CODE
+
+Deploy by uploading all files to the repository root, then:
+Settings → Pages → Deploy from a branch → main → /(root)
